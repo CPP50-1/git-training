@@ -12,6 +12,7 @@ from ..src.greet import (
     greet_charlie,
     greet_hannah,
     greet_diana,
+    greet_alice
 )
 
 
@@ -25,6 +26,9 @@ def test_greet_team():
 
 def test_greet_charlie():
     assert "Charlie" in greet_charlie("Charlie")
+
+def test_greet_alice():
+    assert "Alice" in greet_alice("Alice")
 
 def test_greet_julia():
     assert greet_julia("Julia") == "Hey Julia, have a nice day!"
@@ -40,7 +44,6 @@ def test_greet_hannah():
     assert "Hannah" in greet_hannah("Hannah")
     result = greet_hannah("Hannah")
     assert isinstance(result, str)
-
 
 def test_greet_bob():
     assert "Bob" in greet_bob("Bob")
