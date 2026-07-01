@@ -1,4 +1,4 @@
-from ..src.greet import greet_world, greet_team, greet_fiona, greet_bob, greet_charlie
+from ..src.greet import greet_world, greet_team, greet_fiona, greet_bob, greet_charlie, greet_hannah
 
 
 def test_greet_world():
@@ -16,6 +16,11 @@ def test_greet_charlie():
 def test_greet_fiona():
     assert "Fiona" in greet_fiona("Fiona")
     result = greet_fiona("Fiona")
+    assert isinstance(result, str)
+
+
+def test_greet_hannah():
+    assert "Hannah" in greet_hannah("Hannah")
     assert isinstance(result, str) 
 
 
