@@ -1,4 +1,17 @@
-from ..src.greet import greet_world, greet_team, greet_fiona, greet_bob, greet_charlie, greet_hannah
+from ..src.greet import (
+    greet_evan,
+    greet_george,
+    greet_georges,
+    greet_ivan,
+    greet_julia,
+    greet_karl,
+    greet_world,
+    greet_team,
+    greet_fiona,
+    greet_bob,
+    greet_charlie,
+    greet_hannah,
+)
 
 
 def test_greet_world():
@@ -48,3 +61,8 @@ def test_greet_georges():
 
 def test_greet_evan():
     assert "Evan" in greet_evan("Evan")
+
+
+def test_greet_ivan():
+    """Test greet_ivan function"""
+    assert greet_ivan("Ivan") == "Hey Ivan, glad you're here!"
