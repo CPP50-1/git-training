@@ -13,7 +13,6 @@ def test_greet_charlie():
     assert "Charlie" in greet_charlie("Charlie")
 
 
-
 def test_greet_fiona():
     assert "Fiona" in greet_fiona("Fiona")
     result = greet_fiona("Fiona")
