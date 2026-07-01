@@ -45,3 +45,11 @@ def greet_karl(name: str):
 def greet_george(name: str) -> str:
     """George's personal greeting."""
     return f"Hey {name}, glad you're here!"
+<<<<<<< HEAD
+=======
+
+
+def greet_georges(name: str) -> str:
+    """Georges' personnal greeting."""
+    return f"Hello {name}!"
+>>>>>>> 05c8e64 (test: add test for greet_goerge)
