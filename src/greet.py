@@ -50,3 +50,8 @@ def greet_george(name: str) -> str:
 def greet_georges(name: str) -> str:
     """Georges' personnal greeting."""
     return f"Hello {name}!"
+
+
+def greet_evan(name: str) -> str:
+    """Evan's personal greeting."""
+    return f"Hey {name}, welcome on board!"
