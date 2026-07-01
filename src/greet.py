@@ -23,3 +23,7 @@ def greet_bob(name: str) -> str:
     """Greet someone (Bob)"""
     return f"Hello {name}, good to see you !"
 
+
+def greet_charlie(name: str) -> str:
+    """Charlie's personal greeting."""
+    return f"Hello {name}, nice to see you!"
