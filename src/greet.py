@@ -16,3 +16,8 @@ def greet_team(team_name: str) -> str:
 def greet_alice(name: str) -> str:
     """Alice's personal greeting."""
     return f"Hey {name}, glad you're here!"
+
+def greet_fiona(name: str):
+    """Fiona's personal greeting."""
+    return f"Hey {name}, glad you're here!"
+    
