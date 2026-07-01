@@ -1,4 +1,4 @@
-from ..src.greet import greet_world, greet_team
+from src.greet import greet_world, greet_team
 
 
 def test_greet_world():
