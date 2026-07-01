@@ -1,4 +1,4 @@
-from src.greet import greet_world, greet_team, greet_fiona, greet_bob, greet_charlie, greet_hannah, greet_george, greet_georges, greet_julia, greet_karl
+from ..src.greet import greet_world, greet_team, greet_fiona, greet_bob, greet_charlie, greet_hannah
 
 
 def test_greet_world():
@@ -26,7 +26,7 @@ def test_greet_fiona():
 def test_greet_hannah():
     assert "Hannah" in greet_hannah("Hannah")
     result = greet_hannah("Hannah")
-    assert isinstance(result, str) 
+    assert isinstance(result, str)
 
 
 def test_greet_bob():
@@ -45,3 +45,6 @@ def test_greet_george():
 def test_greet_georges():
     assert "Georges" in greet_georges("Georges")
 
+
+def test_greet_evan():
+    assert "Evan" in greet_evan("Evan")
