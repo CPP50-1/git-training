@@ -12,3 +12,7 @@ def greet_world() -> str:
 def greet_team(team_name: str) -> str:
     """Greet an entire team."""
     return f"Hello, {team_name} team!"
+
+def greet_alice(name: str) -> str:
+    """Alice's personal greeting."""
+    return f"Hey {name}, glad you're here!"
