@@ -13,6 +13,7 @@ def greet_team(team_name: str) -> str:
     """Greet an entire team."""
     return f"Hello, {team_name} team!"
 
+<<<<<<< HEAD
 def greet_fiona(name: str):
     """Fiona's personal greeting."""
     return f"Hey {name}, glad you're here!"
@@ -55,3 +56,9 @@ def greet_georges(name: str) -> str:
 def greet_evan(name: str) -> str:
     """Evan's personal greeting."""
     return f"Hey {name}, welcome on board!"
+=======
+
+def greet_ivan(name: str) -> str:
+    """Ivan's personal greeting"""
+    return f"Hey {name}, glad you're here!"
+>>>>>>> 3d35d4a (feat: add greet_ivan)

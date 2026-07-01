@@ -1,4 +1,16 @@
-from ..src.greet import greet_world, greet_team, greet_fiona, greet_bob, greet_charlie, greet_hannah
+from ..src.greet import (
+    greet_evan,
+    greet_george,
+    greet_georges,
+    greet_julia,
+    greet_karl,
+    greet_world,
+    greet_team,
+    greet_fiona,
+    greet_bob,
+    greet_charlie,
+    greet_hannah,
+)
 
 
 def test_greet_world():
