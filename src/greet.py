@@ -20,7 +20,18 @@ def greet_alice(name: str) -> str:
 def greet_fiona(name: str):
     """Fiona's personal greeting."""
     return f"Hey {name}, glad you're here!"
+
+
+def greet_hannah(name: str) -> str:
+    """Hannah's personal greeting."""
+    return f"Hey {name}, glad you're here!"
+
     
 def greet_bob(name: str) -> str:
     """Greet someone (Bob)"""
     return f"Hello {name}, good to see you !"
+
+
+def greet_charlie(name: str) -> str:
+    """Charlie's personal greeting."""
+    return f"Hello {name}, nice to see you!"
