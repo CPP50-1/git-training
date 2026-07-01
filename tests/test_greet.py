@@ -64,4 +64,5 @@ def test_greet_evan():
 
 
 def test_greet_ivan():
+    """Test greet_ivan function"""
     assert greet_ivan("Ivan") == "Hey Ivan, glad you're here!"
