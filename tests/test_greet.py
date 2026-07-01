@@ -11,6 +11,7 @@ from ..src.greet import (
     greet_bob,
     greet_charlie,
     greet_hannah,
+    greet_diana,
 )
 
 
@@ -24,7 +25,6 @@ def test_greet_team():
 
 def test_greet_charlie():
     assert "Charlie" in greet_charlie("Charlie")
-
 
 def test_greet_julia():
     assert greet_julia("Julia") == "Hey Julia, have a nice day!"
@@ -66,3 +66,7 @@ def test_greet_evan():
 def test_greet_ivan():
     """Test greet_ivan function"""
     assert greet_ivan("Ivan") == "Hey Ivan, glad you're here!"
+
+
+def test_greet_diana():
+    assert greet_diana("Diana") == "Hello Diana, glad you're here!"
