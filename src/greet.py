@@ -17,15 +17,14 @@ def greet_fiona(name: str):
     """Fiona's personal greeting."""
     return f"Hey {name}, glad you're here!"
 
+
 def greet_julia(name: str) -> str:
     return f"Hey {name}, have a nice day!"
-
 
 
 def greet_hannah(name: str) -> str:
     """Hannah's personal greeting."""
     return f"Hey {name}, glad you're here!"
-
 
 
 def greet_bob(name: str) -> str:
@@ -41,3 +40,8 @@ def greet_charlie(name: str) -> str:
 def greet_karl(name: str):
     """Greetings from Karl"""
     return f"Hello, {name}! How are you?"
+
+
+def greet_george(name: str) -> str:
+    """George's personal greeting."""
+    return f"Hey {name}, glad you're here!"
